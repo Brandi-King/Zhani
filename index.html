@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Grades</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>My Class Grade Tracker</h1>
+        <p class="subtitle">
+            Keeping track of my grades, one class at a time!
+        </p>
+    </header>
+    
+     <main>
+        <section class="summary">
+            <h2>My Academic Progress</h2>
+            <p>Classes Enrolled: <span id="classCount">4</span></p>
+
+            <p class="average">
+                Overall Average: <span id="average">Click below</span>
+            </p>
+
+            <button id="averageButton">
+                Calculate Overall Average
+            </button>
+
+            <button id="sortButton">
+                Sort Classes A-Z
+            </button>
+        </section>
+
+        <section>
+            <h2 class="section-title">My Classes</h2>
+            <div id="classContainer" class="class-grid"></div>
+        </section>
+
+        <p id="message" aria-live="polite"></p>
+    </main>
+
+    <footer>
+        <p>My Class Grade Tracker | Digital Media Programming</p>
+    </footer>
+
+</body>
+</html>
