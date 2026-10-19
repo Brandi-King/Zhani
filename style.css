@@ -1,0 +1,122 @@
+/* PAGE BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ADD8E6;
+    color: #000080;
+    margin: 0;
+    padding: 30px;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    display: inline-block;
+    background-color: #FFD700;
+    color: #000080;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.subtitle {
+    font-size: 18px;
+}
+
+/* MAIN CONTENT */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* ACADEMIC SUMMARY BOX */
+.summary {
+    background-color: white;
+    border: 3px solid #000080;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.summary h2 {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.average {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* BUTTONS */
+button {
+    background-color: #000080;
+    color: white;
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin: 6px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1D4ED8;
+    color: #FFD700;
+}
+
+/* CLASS CARDS */
+.section-title {
+    background-color: #FFD700;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.class-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.class-card {
+    background-color: white;
+    border: 3px solid #000080;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.class-card h3 {
+    color: #000080;
+    background-color: #FFD700;
+    padding: 12px;
+    border-radius: 7px;
+    margin-top: 0;
+}
+
+.grade {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1D4ED8;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin: 25px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 15px;
+}
